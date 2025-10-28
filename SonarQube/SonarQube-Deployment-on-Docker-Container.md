@@ -31,18 +31,21 @@ newgrp docker
 
 Create and set up the directory structure for SonarQube and PostgreSQL:
 ```bash
-mkdir -p ~/containers/sonarqube && cd ~/containers/sonarqube
+mkdir -p ~/containers/sonarqube-server && cd ~/containers/sonarqube-server
 mkdir sonarqube_data sonarqube_logs sonarqube_extensions postgres_data
 ```
 Determine the container’s running user:
 ```bash
-docker run --rm -it --entrypoint /bin/sh sonarqube:community
-/ $ id
-uid=999(sonarqube) gid=999(sonarqube)
+docker run --rm --entrypoint /bin/bash sonarqube:community -c "id"
+uid=1000(sonarqube) gid=0(root) groups=0(root)
+```
+```bash
+docker run --rm --entrypoint /bin/bash postgres:15 -c "id"
+sudo chown 1000:1000 sonarqube_* && sudo chown 0:0 postgres_data
 ```
 Assign correct ownership:
 ```bash
-sudo chown -R 999:999 sonarqube_data sonarqube_logs sonarqube_extensions postgres_data
+sudo chown 1000:1000 sonarqube_* && sudo chown 0:0 postgres_data
 ```
 (Optional) Create Docker network if not already available:
 ```bash
@@ -63,7 +66,7 @@ POSTGRES_DB=sonarqube
 
 # 7. 📄 Create Docker Compose File
 
-Create `docker-compose.yml` under `~/containers/sonarqube/`:
+Create `docker-compose.yml` under `~/containers/sonarqube-server/`:
 ```yaml
 version: "3.8"
 
