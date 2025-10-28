@@ -41,7 +41,7 @@ uid=1000(sonarqube) gid=0(root) groups=0(root)
 ```
 ```bash
 docker run --rm --entrypoint /bin/bash postgres:15 -c "id"
-sudo chown 1000:1000 sonarqube_* && sudo chown 0:0 postgres_data
+uid=0(root) gid=0(root) groups=0(root)
 ```
 Assign correct ownership:
 ```bash
