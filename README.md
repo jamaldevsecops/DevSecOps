@@ -52,3 +52,25 @@ It ensures that security is a shared responsibility across the entire IT lifecyc
 5. Deploy to Staging
 6. Dynamic Scan (OWASP ZAP)
 7. Approval and Deploy to Production
+```
+## 6. 📘 Best Practices
+
+✅ Integrate security tools early (Shift-left)
+✅ Automate security scans in pipelines
+✅ Keep dependencies updated
+✅ Enforce least privilege access in infrastructure
+✅ Monitor continuously for threats and compliance
+✅ Train teams on secure coding practices
+
+## 7. 🌐 Useful References & Links
+[🔗 OWASP DevSecOps Guideline](https://owasp.org/www-project-devsecops-guideline/)
+[🔗 Snyk DevSecOps Blog](https://snyk.io/learn/devsecops/)
+[🔗 Trivy GitHub](https://github.com/aquasecurity/trivy)
+[🔗 SonarQube Documentation]()
+[🔗 OWASP ZAP Project](https://docs.sonarsource.com/)
+[🔗 Open Policy Agent (OPA)](https://www.openpolicyagent.org/)
+
+## 8. 🧩 Summary
+
+DevSecOps promotes a security-first mindset by embedding security practices into every phase of software development and operations.
+By automating and integrating tools like SonarQube, Trivy, OWASP ZAP, and OPA, organizations can build secure, reliable, and compliant applications.
