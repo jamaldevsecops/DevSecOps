@@ -1,4 +1,4 @@
-🟣 Deploy SonarQube with PostgreSQL Using Docker and Docker Compose
+# 🟣 Deploy SonarQube with PostgreSQL Using Docker and Docker Compose
 
 # 1. 🎯 Objective
 
