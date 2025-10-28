@@ -74,3 +74,7 @@ It ensures that security is a shared responsibility across the entire IT lifecyc
 
 DevSecOps promotes a security-first mindset by embedding security practices into every phase of software development and operations.
 By automating and integrating tools like SonarQube, Trivy, OWASP ZAP, and OPA, organizations can build secure, reliable, and compliant applications.
+
+📄 Author: ChatGPT (Generated for DevOps Professionals)  
+📅 Date: 2025-10-28  
+🔖 Category: DevSecOps / Security / CI-CD Integration  
