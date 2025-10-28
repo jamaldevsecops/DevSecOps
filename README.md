@@ -63,12 +63,12 @@ It ensures that security is a shared responsibility across the entire IT lifecyc
 ✅ Train teams on secure coding practices  
 
 ## 7. 🌐 Useful References & Links
-[🔗 OWASP DevSecOps Guideline](https://owasp.org/www-project-devsecops-guideline/)  
-[🔗 Snyk DevSecOps Blog](https://snyk.io/learn/devsecops/)  
-[🔗 Trivy GitHub](https://github.com/aquasecurity/trivy)  
-[🔗 SonarQube Documentation](https://docs.sonarsource.com/)  
-[🔗 OWASP ZAP Project](https://www.zaproxy.org/)  
-[🔗 Open Policy Agent (OPA)](https://www.openpolicyagent.org/)  
+🔗 [OWASP DevSecOps Guideline](https://owasp.org/www-project-devsecops-guideline/)  
+🔗 [Snyk DevSecOps Blog](https://snyk.io/learn/devsecops/)  
+🔗 [Trivy GitHub](https://github.com/aquasecurity/trivy)  
+🔗 [SonarQube Documentation](https://docs.sonarsource.com/)  
+🔗 [OWASP ZAP Project](https://www.zaproxy.org/)  
+🔗 [Open Policy Agent (OPA)](https://www.openpolicyagent.org/)  
 
 ## 8. 🧩 Summary
 
